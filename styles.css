@@ -53,6 +53,7 @@ article {
     padding: 1rem;
     box-shadow: 0.5rem 0.5rem;
     border-radius: 1rem;
+    border: 1px solid var(--gray950);
 }
 
 header {

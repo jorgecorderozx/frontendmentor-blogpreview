@@ -1,0 +1,100 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+h1,h2, footer > p{
+    color: var(--gray950);
+    font-weight: 800;
+}
+
+time {
+    color: var(--gray950);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+section > p {
+    color: var(--gray500);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: var(--yellow);
+    height: 100vh;
+    font-size: 16px;
+    font-family: Figtree, "sans serif";
+}
+
+main {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: var(--white);
+    width: 327px;
+    padding: 1rem;
+    box-shadow: 0.5rem 0.5rem;
+    border-radius: 1rem;
+}
+
+header {
+    align-items: flex-start;
+}
+
+header > img {
+    width: 279px;
+    height: 200px;
+    align-self: center;
+
+}
+
+h2 {
+    background-color: var(--yellow);
+    font-size: 13px;
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+footer {
+    width: 60%;
+    align-items: center;
+    gap: 0.7rem
+}
+
+footer > img {
+    max-height: 2rem;
+}
+
+time, section, footer {
+    padding-left: 0.7rem;
+}
+
+header, section, article {
+    flex-direction: column;
+    gap: 1rem;
+}

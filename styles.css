@@ -106,3 +106,18 @@ header, section, article {
     flex-direction: column;
     gap: 1rem;
 }
+
+
+@media (min-width: 1024px){
+    article {
+        width: 384px;
+    }
+
+    div {
+        width: 336px;
+    }
+
+    section > p {
+        font-size: 16px;
+    }
+}

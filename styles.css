@@ -89,6 +89,11 @@ h1 {
     font-size: 20px;
 }
 
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
 footer {
     width: 60%;
     align-items: center;
